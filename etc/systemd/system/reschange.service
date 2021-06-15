@@ -1,0 +1,9 @@
+[Unit]
+Description=Monitor Resolution Change
+
+[Service]
+ExecStart=/usr/bin/reschange-daemon.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

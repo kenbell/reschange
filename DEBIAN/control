@@ -1,0 +1,9 @@
+Package: reschange
+Version: 1.0
+Section: custom
+Priority: optional
+Architecture: all
+Essential: no
+Installed-Size: 1024
+Maintainer: Kenneth Bell
+Description: Forces hotplug on monitor resolution change

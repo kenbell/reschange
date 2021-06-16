@@ -19,4 +19,5 @@ The package installs a systemd service `reschange`, use these commands to contro
 ```
 systemctl status reschange  # current status
 systemctl start reschange   # start the service
+systemctl enable reschange  # auto start the service on boot
 ```
